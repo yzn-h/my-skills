@@ -1,2 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import Head from '../components/main/head.svelte';
+	import MyStory from '../components/main/my_story.svelte';
+	import MyWork from '../components/main/my_work.svelte';
+	import Fotter from '../components/fotter.svelte';
+</script>
+
+<Head />
+<MyStory></MyStory>
+<MyWork></MyWork>
+<Fotter></Fotter>

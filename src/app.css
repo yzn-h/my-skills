@@ -1,4 +1,50 @@
-/* Write your global styles here, in PostCSS syntax */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+[data-theme=dracula] {
+  --primary: #ff79c6;
+  --secondary: #bd93f9;
+  --accent: #ffb86c;
+  --neutral: #414558;
+  --base-100: #282a36;
+  --base-content: #f8f8f2;
+  --info: #8be9fd;
+  --success: #50fa7b;
+  --warning: #f1fa8c;
+  --error: #ff5555;
+  /* gradient */
+  --one: #FFBB62;
+  --two: #D66B75;
+  --thre: #79436B;
+  --for: #5d3160;
+  --five: #3f2f4e;
+
+}
+
+[data-theme=cupcake] {
+  --primary: #65c3c8;
+  --secondary: #ef9fbc;
+  --accent: #eeaf3a;
+  --neutral: #291334;
+  --base-100: #faf7f5;
+  --base-200: #efeae6;
+  --base-300: #e7e2df;
+  --base-content: #291334;
+  ----rounded-btn: 1.9rem;
+  --tab-border: 2px;
+  --tab-radius: .5rem;
+  /* gradient */
+  --one: #F0B61F;
+  --two: #FEC975;
+  --thre: #FFDEB7;
+  --for: #dfa986;
+  --five: #c79370;
+}
+
+body {
+  font-family: 'Noto Sans Arabic', sans-serif;
+}
